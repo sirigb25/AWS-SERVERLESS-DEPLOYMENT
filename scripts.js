@@ -4,7 +4,7 @@ var API_ENDPOINT = "https://nyv70bzo9e.execute-api.us-east-1.amazonaws.com/prod"
 // AJAX POST request to save student data
 document.getElementById("savestudent").onclick = function(){
     var inputData = {
-        "studentid": $('#studentid').val(),
+        "studentID": $('#studentid').val(),
         "name": $('#name').val(),
         "class": $('#class').val(),
         "age": $('#age').val()
